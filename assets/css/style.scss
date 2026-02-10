@@ -3,29 +3,48 @@
 ---
 
 body {
-	background-color: #F0F0F0;
-	font-family: "Trebuchet MS", sans-serif;
-	color: #4A4A4A;
+	font-family: "Google Sans Flex", sans-serif;
+  margin: 0;
 }
+
+#wrapper {
+
+}
+
 section {
-	background-color: #fff;
-	width: 600px;
-	margin: 0 auto;
-	margin-top: 100px;
-	padding: 45px 25px;
-	border: 10px solid #b2b2b2;
-	text-align: center;
+
 }
+
 h1 {
 	font-size: 1em;
 }
 
 // NAV
+nav {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#donate {
+  a,
+  a:visited {
+    background: green !important;
+    &:hover {
+      background: #ffbc2b !important;
+    }
+    &:not(:only-child):after {
+      padding-left: 4px;
+      content: ' ▾';
+    }
+  }
+}
+
+
 // Navigation Variables
 $content-width: 1000px;
 $breakpoint: 799px;
 $nav-height: 70px;
-$nav-background: #262626;
+$nav-background: #010054;
 $nav-font-color: #ffffff;
 $link-hover-color: #2581DC;
 
@@ -142,7 +161,7 @@ nav {
 }
 @media screen and (min-width: $breakpoint) {
   .nav-list {
-    display: block !important;
+    display: inline-block !important;
   }
 }
 #nav-toggle {
