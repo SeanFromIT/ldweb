@@ -37,11 +37,11 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "22"
+          node-version: "24"
       
       - name: Setup Ruby
         # https://github.com/ruby/setup-ruby/releases/
-        uses: ruby/setup-ruby@v1.229.0
+        uses: ruby/setup-ruby@v1.288.0
         with:
           ruby-version: '3.3.7' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
@@ -51,7 +51,7 @@ jobs:
         uses: pnpm/action-setup@v4
         id: pnpm-install
         with:
-          version: 10.14.0
+          version: 10.29.2
           run_install: false
       
       - name: Get pnpm store directory
