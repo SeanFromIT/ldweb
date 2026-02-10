@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Sean Feeney
+
+# THANKS
+
+    Tina Gamez, Patti O'Neil
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, Jekyll,
+    GitHub, TinaCMS
