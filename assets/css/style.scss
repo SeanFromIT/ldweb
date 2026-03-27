@@ -90,6 +90,7 @@ footer {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  padding: 10px 20px 10px 20px;
 }
 
 #disclaimer {
@@ -220,11 +221,6 @@ nav {
     position: static;
   }
 }
-@media screen and (min-width: $breakpoint) {
-  .nav-list {
-    display: inline-block !important;
-  }
-}
 #nav-toggle {
   position: absolute;
   left: 18px;
@@ -262,5 +258,25 @@ nav {
     &:after {
       transform: rotate(-45deg);
     }
+  }
+}
+// Full size desktop view
+@media screen and (min-width: $breakpoint) {
+  .nav-list {
+    display: inline-block !important;
+  }
+  .sideBySide {
+    display: flex;
+  }
+  .floatRight {
+    min-width: 394px;
+    width: 40%;
+  }
+  .floatLeft {
+    min-width: 505px;
+    width: 60%;
+  }
+  .rowOneFixedHeight {
+    height: 490px;
   }
 }
