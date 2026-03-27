@@ -5,6 +5,7 @@
 body {
 	font-family: "Google Sans Flex", sans-serif;
   margin: 0;
+  color: #fff;
 }
 
 #wrapper {
@@ -12,11 +13,57 @@ body {
 }
 
 section {
-
+  margin-top: 0;
+  padding: 10px 20px 10px 20px;
 }
 
 h1 {
-	font-size: 1em;
+	font-size: 1.5em;
+  text-transform: uppercase;
+  border-left: 15px solid #ffbc2b;
+  padding-left: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+.lightBlue, body {
+  background-color: #115e91;
+}
+
+.darkBlue, footer {
+  background-color: #010054;
+}
+
+.purple {
+  background-color: #544cc7;
+}
+
+.white {
+  background-color: #fff;
+  color: #000;
+}
+
+tr td:first-child {
+  padding-left: 0px;
+}
+
+td {
+  padding: 10px 0px 10px 50px;
+}
+
+.majorLink {
+  a,
+  a:visited {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  a:hover {
+    color: #ffbc2b;
+  }
 }
 
 // NAV
@@ -39,11 +86,26 @@ nav {
   }
 }
 
+footer {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#disclaimer {
+  border: 1px solid #fff;
+  margin: 5px;
+  padding: 5px;
+  max-width: 500px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 // Navigation Variables
-$content-width: 1000px;
-$breakpoint: 799px;
-$nav-height: 70px;
+$content-width: 900px;
+$breakpoint: 850px;
+$nav-height: 90px;
 $nav-background: #010054;
 $nav-font-color: #ffffff;
 $link-hover-color: #2581DC;
@@ -57,11 +119,10 @@ $link-hover-color: #2581DC;
 // Logo and branding
 .brand {
   position: absolute;
-  padding-left: 20px;
+  padding-left: 0;
   float: left;
   line-height: $nav-height;
-  text-transform: uppercase;
-  font-size: 1.4em;
+  min-width: 200px;
   a,
   a:visited {
     color: $nav-font-color;
