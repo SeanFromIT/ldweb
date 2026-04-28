@@ -66,6 +66,16 @@ td {
   }
 }
 
+.footerLink {
+  a,
+  a:visited,
+  a:hover {
+    color: #fff;
+    text-decoration: none;
+    font-size:200%;
+  }
+}
+
 // NAV
 nav {
   font-weight: bold;
