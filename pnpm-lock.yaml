@@ -12,8 +12,8 @@ importers:
         specifier: ^2.5.6
         version: 2.5.6(@codemirror/language@6.0.0)(@types/node@25.2.2)(abstract-level@1.0.4)(immer@10.2.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@3.30.0)(scheduler@0.27.0)(slate-dom@0.114.0(slate@0.114.0))(slate@0.114.0)(use-sync-external-store@1.6.0(react@18.3.1))(yaml@2.9.0)
       tinacms:
-        specifier: ^3.10.1
-        version: 3.10.1(@types/node@25.2.2)(abstract-level@1.0.4)(immer@10.2.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(scheduler@0.27.0)(slate-dom@0.114.0(slate@0.114.0))(slate@0.114.0)(typescript@5.9.3)(use-sync-external-store@1.6.0(react@18.3.1))
+        specifier: ^3.11.0
+        version: 3.11.0(@types/node@25.2.2)(abstract-level@1.0.4)(immer@10.2.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(scheduler@0.27.0)(slate-dom@0.114.0(slate@0.114.0))(slate@0.114.0)(typescript@5.9.3)(use-sync-external-store@1.6.0(react@18.3.1))
     devDependencies:
       '@types/node':
         specifier: ^25.2.2
@@ -33,36 +33,17 @@ packages:
     peerDependencies:
       graphql: '*'
 
-  '@ariakit/components@0.1.5':
-    resolution: {integrity: sha512-LnvU9bcOU2IkQS3jCFm2rxcULNtG55+M+fh66mFf4EEBHJnDoTdN7zNRtm1dyzcFn6hAn/AoLl3Hyg95RIGUOA==}
+  '@ariakit/components@0.1.7':
+    resolution: {integrity: sha512-JbVGadO/Sf6S8dXSosB3nxbhjicxtMfrEuHyOgEKR7yY96VfEAIrLf1KrMuxJZ60a5XmzPKY1AY0N+0TKy6Rug==}
+
+  '@ariakit/react-components@0.3.3':
+    resolution: {integrity: sha512-7J2HSIfrfSGv2lh8UDEo234Y/ZE8TvNxcukbgw6ibaaS6RES8w4kraANAsO5V1hQlAe8nhqDLwgj8dKGgWkC5A==}
 
   '@ariakit/components@0.1.7':
     resolution: {integrity: sha512-JbVGadO/Sf6S8dXSosB3nxbhjicxtMfrEuHyOgEKR7yY96VfEAIrLf1KrMuxJZ60a5XmzPKY1AY0N+0TKy6Rug==}
 
-  '@ariakit/react-components@0.3.1':
-    resolution: {integrity: sha512-SJ/xfL3vj20TX6p/Gx39wbQtfNKL66uQ8MtnW8yU7Mv3DnOr/riFUKZnTuVjl+rMfwCdiGoHK1DdYiFKSaHG5w==}
-    peerDependencies:
-      react: ^17.0.0 || ^18.0.0 || ^19.0.0
-      react-dom: ^17.0.0 || ^18.0.0 || ^19.0.0
-
-  '@ariakit/react-components@0.3.3':
-    resolution: {integrity: sha512-7J2HSIfrfSGv2lh8UDEo234Y/ZE8TvNxcukbgw6ibaaS6RES8w4kraANAsO5V1hQlAe8nhqDLwgj8dKGgWkC5A==}
-    peerDependencies:
-      react: ^17.0.0 || ^18.0.0 || ^19.0.0
-      react-dom: ^17.0.0 || ^18.0.0 || ^19.0.0
-
-  '@ariakit/react-store@0.1.5':
-    resolution: {integrity: sha512-EMB7dG0aD+MqI/0M8dzmwPObGYoWx7lvJK4tKmTDDbuGIW+XwrKfG3n1dMkWgg/TEq5lDNE7S3WbpE8mRfXpPA==}
-    peerDependencies:
-      react: ^17.0.0 || ^18.0.0 || ^19.0.0
-
   '@ariakit/react-store@0.1.7':
     resolution: {integrity: sha512-Wl8g69WyO1BJCjC5DmvE9PkvNhQHhKOebouEc5Kd7LdkH9GThk0ILbv3wKKPYPv4Av7G7gp6jIn2OQpPAZnmpA==}
-    peerDependencies:
-      react: ^17.0.0 || ^18.0.0 || ^19.0.0
-
-  '@ariakit/react-utils@0.2.0':
-    resolution: {integrity: sha512-tyIx/qxYY5i8ntGSzDYZ5Olak7zZ58QeEYjbbMNSZEywgtrQlKhZXkVnXK72UkGXmCLg7OrrTsesv8Qh6Bx2LQ==}
     peerDependencies:
       react: ^17.0.0 || ^18.0.0 || ^19.0.0
 
@@ -71,20 +52,20 @@ packages:
     peerDependencies:
       react: ^17.0.0 || ^18.0.0 || ^19.0.0
 
-  '@ariakit/react@0.4.32':
-    resolution: {integrity: sha512-ar5lyS/Pp/+p1TdAqsS8gHzL/E9df8uWXYmEsD/Olpv4hp9LVEtwM6FfOu57sn6qaycs2xWFN9GinmXkMd8LWA==}
-    peerDependencies:
-      react: ^17.0.0 || ^18.0.0 || ^19.0.0
-      react-dom: ^17.0.0 || ^18.0.0 || ^19.0.0
-
   '@ariakit/react@0.4.34':
     resolution: {integrity: sha512-dstkfbRmC5Fz3uYwrkUDiD1b4Yx5BfL/WKYpasbwjHLDDUaJs/YhPAu837pvqUmJJo7T+UNF7cPCEmA97zN+UQ==}
     peerDependencies:
       react: ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^17.0.0 || ^18.0.0 || ^19.0.0
 
-  '@ariakit/store@0.1.4':
-    resolution: {integrity: sha512-VQDtp5eq4MgIjxzo6M/6NN2sVx8WykiSs9HNMv2AnfAGntF1fMA6cxCuBIFFWkHekNMGWwe/utzbTt3J/mtuiA==}
+  '@ariakit/store@0.1.6':
+    resolution: {integrity: sha512-reQ8IXkgqutWtLdSeCu9fFL2N01JqngM3WUiBlH2IWcwxSzZJzYMZ010P6jWkVHrdyJDbcqXz84oUQX5e6iLnw==}
+
+  '@ariakit/react@0.4.34':
+    resolution: {integrity: sha512-dstkfbRmC5Fz3uYwrkUDiD1b4Yx5BfL/WKYpasbwjHLDDUaJs/YhPAu837pvqUmJJo7T+UNF7cPCEmA97zN+UQ==}
+    peerDependencies:
+      react: ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^17.0.0 || ^18.0.0 || ^19.0.0
 
   '@ariakit/store@0.1.6':
     resolution: {integrity: sha512-reQ8IXkgqutWtLdSeCu9fFL2N01JqngM3WUiBlH2IWcwxSzZJzYMZ010P6jWkVHrdyJDbcqXz84oUQX5e6iLnw==}
@@ -801,14 +782,13 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@posthog/core@1.40.2':
-    resolution: {integrity: sha512-H12j7O9iHGvpK9t2ko8W4pvfbV1pBDxrsWC1LA6yp2RhzwvC4T3sWhu+AekDQJSRSrJEWlB0t/Ueq9QhPSq7FQ==}
-
   '@posthog/core@1.42.1':
     resolution: {integrity: sha512-cZojBmvf92gZAn0MGf/J2S+3t2sZqb9E2/6mjY4jJsImwz7PuYqdNj870Wx2iwwlf++wfhRuH4K4bpDy9GIoCA==}
 
-  '@posthog/types@1.393.0':
-    resolution: {integrity: sha512-vzWeEJZ7ERQhFRoQYaP5jzN1JvIu46UJyHXsuv+dTGW2r3sMgREOhNxXLZjmFHwZ8/FOHQoyqqQmXTCXZSfMSg==}
+  '@posthog/types@1.395.0':
+    resolution: {integrity: sha512-Ty0gbVc6d9ku9H3caF54PmEfu4PHUGpJKTriMyDb4rjCTsEYOOjD4r6Fw/UMYSSWg8Ls3KnCtTow8LL6ciqNDg==}
+  '@posthog/core@1.40.2':
+    resolution: {integrity: sha512-H12j7O9iHGvpK9t2ko8W4pvfbV1pBDxrsWC1LA6yp2RhzwvC4T3sWhu+AekDQJSRSrJEWlB0t/Ueq9QhPSq7FQ==}
 
   '@posthog/types@1.395.0':
     resolution: {integrity: sha512-Ty0gbVc6d9ku9H3caF54PmEfu4PHUGpJKTriMyDb4rjCTsEYOOjD4r6Fw/UMYSSWg8Ls3KnCtTow8LL6ciqNDg==}
@@ -1418,8 +1398,8 @@ packages:
   '@tinacms/graphql@2.4.9':
     resolution: {integrity: sha512-jqVqxXdNUSiU3reT+X9ZiRFPA+tSIYcN3EmdGYy3pYq9oZkVhjoQUEinGj/lPOv5wdcvYGl8cEAmRyKD6oYjSQ==}
 
-  '@tinacms/mdx@2.1.10':
-    resolution: {integrity: sha512-yirgszostW9EdPq/4CDRndQPk/0+T4ye27SOQaJARSkcU0AHRc74CWJe+77ARSo6bTomYS9nES2rG1EuxTpn8g==}
+  '@tinacms/mdx@2.1.11':
+    resolution: {integrity: sha512-RG9ZkL6VZQwuug8a+74d7yaHr5rwe0p9fmGuHEaSKIttO0aUjQZ/VpxCrT6PxEf7naNimE26BI9qSztRbu8yug==}
 
   '@tinacms/mdx@2.1.11':
     resolution: {integrity: sha512-RG9ZkL6VZQwuug8a+74d7yaHr5rwe0p9fmGuHEaSKIttO0aUjQZ/VpxCrT6PxEf7naNimE26BI9qSztRbu8yug==}
@@ -1434,6 +1414,9 @@ packages:
     peerDependencies:
       react: '>=16.14.0'
       yup: ^1.0.0
+
+  '@tinacms/search@1.2.23':
+    resolution: {integrity: sha512-wc1XKphE89oJUUA5QAa714eKMhsubh11fzlurYCKLRH3+Y9oyHd4xS0s4okjrKfNJGP2+I9GQ65Hn3l1wT0WzQ==}
 
   '@tinacms/search@1.2.22':
     resolution: {integrity: sha512-8mmKFBb1AxZeQM91tgxqTFz6KfhemkVasvyCOEh5svm7jwdLINgvmRhI+wokh8xyDni55jS+eJmwIGwnzpDt6Q==}
@@ -3679,8 +3662,8 @@ packages:
     resolution: {integrity: sha512-Mz8SaolMd8nB+G13WkORcxQKHZ/NE4xXevtkJHVuG+guo9/wYKlIMTKAqGdEmYOXR2ijPjTYNHssizdaVSUNdQ==}
     engines: {node: ^10 || ^12 || >=14}
 
-  posthog-js@1.399.4:
-    resolution: {integrity: sha512-gl2/MxF1SsA7Jtg7EwlJJynQMYhaSRmfXqn3FA3LQKiGJaS7F4F0u4L04lYmJtZTmOWb/tC73YQahgRKhZDK1A==}
+  posthog-js@1.402.3:
+    resolution: {integrity: sha512-MCn4O9wJc1BGBbb820MlmYifDb6EhFBFhfR1K9294gfgFRcxin+NSlypswVBdt1ZO4XD/P7EPmwApyVX/EYlUw==}
 
   posthog-js@1.402.3:
     resolution: {integrity: sha512-MCn4O9wJc1BGBbb820MlmYifDb6EhFBFhfR1K9294gfgFRcxin+NSlypswVBdt1ZO4XD/P7EPmwApyVX/EYlUw==}
@@ -4665,22 +4648,23 @@ snapshots:
       immutable: 5.1.9
       invariant: 2.2.4
 
-  '@ariakit/components@0.1.5':
+  '@ariakit/components@0.1.7':
     dependencies:
-      '@ariakit/store': 0.1.4
+      '@ariakit/store': 0.1.6
       '@ariakit/utils': 0.1.4
+
+  '@ariakit/react-components@0.3.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
 
   '@ariakit/components@0.1.7':
     dependencies:
       '@ariakit/store': 0.1.6
       '@ariakit/utils': 0.1.4
 
-  '@ariakit/react-components@0.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@ariakit/components': 0.1.5
-      '@ariakit/react-store': 0.1.5(react@18.3.1)
-      '@ariakit/react-utils': 0.2.0(react@18.3.1)
-      '@ariakit/store': 0.1.4
+      '@ariakit/components': 0.1.7
+      '@ariakit/react-store': 0.1.7(react@18.3.1)
+      '@ariakit/react-utils': 0.2.2(react@18.3.1)
+      '@ariakit/store': 0.1.6
       '@ariakit/utils': 0.1.4
       '@floating-ui/dom': 1.8.0
       react: 18.3.1
@@ -4697,10 +4681,10 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@ariakit/react-store@0.1.5(react@18.3.1)':
+  '@ariakit/react-store@0.1.7(react@18.3.1)':
     dependencies:
-      '@ariakit/react-utils': 0.2.0(react@18.3.1)
-      '@ariakit/store': 0.1.4
+      '@ariakit/react-utils': 0.2.2(react@18.3.1)
+      '@ariakit/store': 0.1.6
       '@ariakit/utils': 0.1.4
       react: 18.3.1
       use-sync-external-store: 1.6.0(react@18.3.1)
@@ -4713,11 +4697,12 @@ snapshots:
       react: 18.3.1
       use-sync-external-store: 1.6.0(react@18.3.1)
 
-  '@ariakit/react-utils@0.2.0(react@18.3.1)':
+  '@ariakit/react-utils@0.2.2(react@18.3.1)':
     dependencies:
-      '@ariakit/store': 0.1.4
+      '@ariakit/store': 0.1.6
       '@ariakit/utils': 0.1.4
       react: 18.3.1
+
 
   '@ariakit/react-utils@0.2.2(react@18.3.1)':
     dependencies:
@@ -4725,9 +4710,9 @@ snapshots:
       '@ariakit/utils': 0.1.4
       react: 18.3.1
 
-  '@ariakit/react@0.4.32(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@ariakit/react@0.4.34(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@ariakit/react-components': 0.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@ariakit/react-components': 0.3.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
@@ -4737,7 +4722,7 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@ariakit/store@0.1.4':
+  '@ariakit/store@0.1.6':
     dependencies:
       '@ariakit/utils': 0.1.4
 
@@ -5458,13 +5443,13 @@ snapshots:
 
   '@posthog/core@1.40.2':
     dependencies:
-      '@posthog/types': 1.393.0
+      '@posthog/types': 1.395.0
 
   '@posthog/core@1.42.1':
     dependencies:
       '@posthog/types': 1.395.0
 
-  '@posthog/types@1.393.0': {}
+  '@posthog/types@1.395.0': {}
 
   '@posthog/types@1.395.0': {}
 
@@ -6147,7 +6132,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@tinacms/mdx@2.1.10(react@18.3.1)(typescript@5.9.3)(yup@1.7.1)':
+  '@tinacms/mdx@2.1.11(react@18.3.1)(typescript@5.9.3)(yup@1.7.1)':
     dependencies:
       '@tinacms/schema-tools': 2.8.3(react@18.3.1)(yup@1.7.1)
       acorn: 8.8.2
@@ -8896,10 +8881,10 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  posthog-js@1.399.4:
+  posthog-js@1.402.3:
     dependencies:
-      '@posthog/core': 1.40.2
-      '@posthog/types': 1.393.0
+      '@posthog/core': 1.42.1
+      '@posthog/types': 1.395.0
       core-js: 3.49.0
       dompurify: 3.4.12
       fflate: 0.4.8
@@ -9644,7 +9629,7 @@ snapshots:
 
   tinacms@3.10.1(@types/node@25.2.2)(abstract-level@1.0.4)(immer@10.2.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(scheduler@0.27.0)(slate-dom@0.114.0(slate@0.114.0))(slate@0.114.0)(typescript@5.9.3)(use-sync-external-store@1.6.0(react@18.3.1)):
     dependencies:
-      '@ariakit/react': 0.4.32(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@ariakit/react': 0.4.34(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@dnd-kit/core': 6.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@dnd-kit/sortable': 8.0.0(@dnd-kit/core@6.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       '@dnd-kit/utilities': 3.2.2(react@18.3.1)
@@ -9709,7 +9694,7 @@ snapshots:
       lucide-react: 0.424.0(react@18.3.1)
       mermaid: 11.16.0
       monaco-editor: 0.31.0
-      posthog-js: 1.399.4
+      posthog-js: 1.402.3
       prism-react-renderer: 2.4.1(react@18.3.1)
       prop-types: 15.7.2
       react: 18.3.1
